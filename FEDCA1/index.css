@@ -217,6 +217,74 @@
   background: var(--accent-color); /* e.g. green */
   color: #fff;
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  nav a {
+    margin: 0.5rem 0;
+  }
+
+  .hero {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .flip-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .flip-card {
+    height: 200px;
+    margin-bottom: 1rem;
+  }
+
+  .skill {
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .chart {
+    max-width: 100%;
+    height: 250px;
+  }
+
+  .stats-controls {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .card img {
+    height: 120px;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
 
 
   
